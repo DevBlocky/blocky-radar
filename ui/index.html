@@ -1,83 +1,76 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
-        <link href="index.css" rel="stylesheet" type="text/css" />
-    </head>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="index.css" rel="stylesheet" type="text/css" />
+	</head>
 
-    <body>
-        <div id="radar">
-            <div class="row speeds">
-                <div id="target">
-                    <p class="speed">0</p>
-                    <p class="header">TARGET</p>
-                </div>
-                <div id="fast">
-                    <p class="speed">0</p>
-                    <p class="header">FAST</p>
-                </div>
-                <div id="patrol">
-                    <p class="speed">0</p>
-                    <p class="header">PATROL</p>
-                </div>
-            </div>
-            <div class="row options">
-                <div id="option-ud" class="option-lr">
-                    <span>
-                        <button class="left">&lt;</button>
-                        <button class="right">&gt;</button>
-                    </span>
-                    <p>D/U</p>
-                </div>
-                <div id="option-lr" class="option-lr">
-                    <span>
-                        <button class="left">&lt;</button>
-                        <button class="right">&gt;</button>
-                    </span>
-                    <p>L/R</p>
-                </div>
-                <div id="option-dist" class="option-lr">
-                    <span>
-                        <button class="left">&lt;</button>
-                        <button class="right">&gt;</button>
-                    </span>
-                    <p>DIST</p>
-                </div>
-                <div class="option-br"></div>
-                <div id="option-freeze" class="option-btn">
-                    <button></button>
-                    <p>FREEZE</p>
-                </div>
-                <div class="option-br"></div>
-                <div id="option-mph" class="option-btn">
-                    <button></button>
-                    <p>MPH</p>
-                </div>
-                <div id="option-kmh" class="option-btn">
-                    <button></button>
-                    <p>KMH</p>
-                </div>
-                <div class="option-br"></div>
-                <div id="option-fast" class="option-lr">
-                    <span>
-                        <button class="left">&lt;</button>
-                        <button class="right">&gt;</button>
-                    </span>
-                    <p>FAST</p>
-                </div>
-                <div class="option-br"></div>
-                <div id="option-reset" class="option-btn">
-                    <button></button>
-                    <p>RESET</p>
-                </div>
-                <div id="option-power" class="option-btn">
-                    <button></button>
-                    <p>PWR</p>
-                </div>
-            </div>
-        </div>
+	<body>
+		<div id="radar">
+			<div class="row speeds">
+				<div id="target">
+					<p class="speed">0</p>
+					<p class="header">TARGET</p>
+				</div>
+				<div id="fast">
+					<p class="speed">0</p>
+					<p class="header">FAST</p>
+				</div>
+				<div id="patrol">
+					<p class="speed">0</p>
+					<p class="header">PATROL</p>
+				</div>
+			</div>
+			<div class="row options">
+				<div id="option-rotx" class="option-lr">
+					<span>
+						<button class="left">&lt;</button>
+						<button class="right">&gt;</button>
+					</span>
+					<p>L/R</p>
+				</div>
+				<div id="option-roty" class="option-lr">
+					<span>
+						<button class="left">&lt;</button>
+						<button class="right">&gt;</button>
+					</span>
+					<p>U/D</p>
+				</div>
+				<div class="option-br"></div>
+				<div id="option-freeze" class="option-btn">
+					<button></button>
+					<p>FREEZE</p>
+				</div>
+				<div class="option-br"></div>
+				<div id="option-mph" class="option-btn">
+					<button></button>
+					<p>MPH</p>
+				</div>
+				<div id="option-kmh" class="option-btn">
+					<button></button>
+					<p>KMH</p>
+				</div>
+				<div class="option-br"></div>
+				<div id="option-fast" class="option-lr">
+					<span>
+						<button class="left">&lt;</button>
+						<button class="right">&gt;</button>
+					</span>
+					<p>FAST</p>
+				</div>
+				<div class="option-br"></div>
+				<div id="option-reset" class="option-btn">
+					<button></button>
+					<p>RESET</p>
+				</div>
+				<div id="option-power" class="option-btn">
+					<button></button>
+					<p>PWR</p>
+				</div>
+			</div>
+		</div>
 
-        <script src="index.js" type="text/javascript"></script>
-    </body>
+		<script src="index.js" type="text/javascript"></script>
+	</body>
 </html>

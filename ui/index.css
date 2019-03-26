@@ -1,110 +1,110 @@
 body {
-    font-family: Helvetica, sans-serif;
+	font-family: Helvetica, sans-serif;
 }
 
 /* Main Items */
 #radar {
-    position: fixed;
-    top: 85%;
-    left: 70%;
-    width: 30%;
-    height: 15%;
-    background: black;
-    color: white;
+	position: fixed;
+	top: 85%;
+	left: 70%;
+	width: 30%;
+	height: 15%;
+	background: black;
+	color: white;
 }
 
 /* MENU styles */
 #fast_speed_text {
-    font-size: 125%;
-    width: 90%;
-    margin: 0 5%;
-    margin-top: 3%;
+	font-size: 125%;
+	width: 90%;
+	margin: 0 5%;
+	margin-top: 3%;
 }
 
 #set_fast_speed {
-    margin: 0 5%;
-    margin-bottom: 3%;
+	margin: 0 5%;
+	margin-bottom: 3%;
 }
 
 /* RADAR rows */
 .row {
-    margin: 0 auto;
+	margin: 0 auto;
 }
 .row * {
-    display: inline-block;
+	display: inline-block;
 }
 .row * * {
-    display: block;
+	display: block;
 }
 
 .speeds {
-    margin: 0 auto;
+	margin: 0 auto;
 }
 .speeds * {
-    text-align: center;
-    margin: 3% 0;
-    min-width: 32%;
+	text-align: center;
+	margin: 3% 0;
+	min-width: 32%;
 }
 
 .speeds * .speed {
-    font-size: 250%;
+	font-size: 250%;
 }
 .speeds * .header {
-    font-size: 125%;
+	font-size: 125%;
 }
 @media (max-width: 1920px) {
-    .speeds * .speed {
-        font-size: 2.0vw;
-    }
-    .speeds * .header {
-        font-size: 0.9vw;
-    }
+	.speeds * .speed {
+		font-size: 2.0vw;
+	}
+	.speeds * .header {
+		font-size: 0.9vw;
+	}
 }
 
 .options {
-    padding: 0 6%;
+	padding: 0 6%;
 }
 .options * {
-    text-align: center;
+	text-align: center;
 }
 
 .option-btn button {
-    background: rgba(200, 200, 200, 1);
-    padding: 0.8vh 0.8vh;
-    cursor: pointer;
-    margin: 0 auto;
+	background: rgba(200, 200, 200, 1);
+	padding: 0.8vh 0.8vh;
+	cursor: pointer;
+	margin: 0 auto;
 }
 
 .option-lr span {
-    margin: 0 auto;
-    display: flex;
+	margin: 0 auto;
+	display: flex;
 }
 .option-lr span button {
-    background: rgba(200, 200, 200, 1);
-    padding: 0.3vh 0.2vh;
-    font-size: 1vh;
+	background: rgba(200, 200, 200, 1);
+	padding: 0.3vh 0.2vh;
+	font-size: 1vh;
 }
 
 .option-btn p, .option-lr p {
-    margin-top: 0.05vh;
-    font-size: 0.6vw;
-    color: rgba(255, 65, 65, 1);
-    font-size: bold;
+	margin-top: 0.05vh;
+	font-size: 0.6vw;
+	color: rgba(255, 65, 65, 1);
+	font-size: bold;
 }
 
 .option-br {
-    margin: 0 0.5vw;
+	margin: 0 0.5vw;
 }
 
 /* RADAR speed colors */
 #target .header {
-    color: rgba(65, 135, 255, 1);
+	color: rgba(65, 135, 255, 1);
 }
 
 #fast .header {
-    color: rgba(255, 85, 85, 1);
+	color: rgba(255, 85, 85, 1);
 }
 
 #patrol .header {
-    color: rgba(255, 255, 85, 1);
+	color: rgba(255, 255, 85, 1);
 }

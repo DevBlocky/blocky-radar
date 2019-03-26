@@ -13,8 +13,9 @@ This is a remake of my older radar script, known as `radar`, to enhance the menu
 ## Usage
 1. Open the radar with `CTRL`+`M`
 2. Click the buttons with the cursor to change the settings
-3. Exit the cursor screen with `ESC`
-4. Profit
+3. Change radar direction with arrow keys
+4. Exit the cursor screen with `ESC`
+5. Profit
 
 ## Discord
 Join my [discord](https://discord.gg/ZcTayce) for support and more scripts
